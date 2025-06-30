@@ -1,8 +1,8 @@
-from cbs_requests import CBSSportsRequests
-from pool import Pool
-from matchup import Matchup
-from team import Team
-from entry import Entry
+from .cbs_requests import CBSSportsRequests
+from .pool import Pool
+from .matchup import Matchup
+from .team import Team
+from .entry import Entry
 
 
 class Bracket(object):
