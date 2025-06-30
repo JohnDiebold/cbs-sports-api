@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "cbs-sports-api"
-version = "0.1.2"
+version = "0.1.3"
 authors = [
   { name="John Diebold", email="cbs.sports.api@gmail.com" },
 ]
@@ -25,5 +25,3 @@ license-files = ["LICEN[CS]E*"]
 Homepage = "https://github.com/JohnDiebold/cbs-sports-api"
 Issues = "https://github.com/JohnDiebold/cbs-sports-api/issues"
 
-[tool.hatch.build]
-packages = ["src/cbs_sports_api"]
