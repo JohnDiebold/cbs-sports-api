@@ -24,3 +24,6 @@ license-files = ["LICEN[CS]E*"]
 [project.urls]
 Homepage = "https://github.com/JohnDiebold/cbs-sports-api"
 Issues = "https://github.com/JohnDiebold/cbs-sports-api/issues"
+
+[tool.hatch.build]
+packages = ["src/cbs_sports_api"]
