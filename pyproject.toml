@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "cbs-sports-api"
-version = "0.1.3"
+version = "0.1.4"
 authors = [
   { name="John Diebold", email="cbs.sports.api@gmail.com" },
 ]
