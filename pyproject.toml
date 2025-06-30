@@ -24,3 +24,6 @@ Issues = "https://github.com/JohnDiebold/cbs-sports-api/issues"
 
 [tool.hatch.build.targets.wheel]
 packages = ["src/cbs_sports_api"]
+
+[tool.hatch.build.sources]
+cbs_sports_api = "src/cbs_sports_api"
