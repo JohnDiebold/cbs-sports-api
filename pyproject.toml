@@ -15,15 +15,12 @@ classifiers = [
     "Programming Language :: Python :: 3",
     "Operating System :: OS Independent",
 ]
+dependencies = [
+    "requests"
+]
 license = "MIT"
 license-files = ["LICEN[CS]E*"]
 
 [project.urls]
 Homepage = "https://github.com/JohnDiebold/cbs-sports-api"
 Issues = "https://github.com/JohnDiebold/cbs-sports-api/issues"
-
-[tool.hatch.build.targets.wheel]
-packages = ["src/cbs_sports_api"]
-
-[tool.hatch.build.sources]
-cbs_sports_api = "src/cbs_sports_api"
