@@ -5,7 +5,7 @@ from .team import Team
 from .entry import Entry
 
 
-class Bracket(object):
+class League(object):
     def __init__(self, pool_id: str, fetch_all_entries=False):
         self.pool_id = pool_id
         self.cbs_request = CBSSportsRequests(pool_id=pool_id)
