@@ -176,7 +176,7 @@ class CBSSportsRequests(object):
           ...CentralPoolDetailsFragment
           }
         }
-        
+
         fragment CentralPoolDetailsFragment on Pool {
           id
           name
@@ -206,7 +206,7 @@ class CBSSportsRequests(object):
           canViewEarly
           hasSeenNewSettingPopover
         }
-        
+
         fragment CentralSeasonFragment on Season {
           id
           season
@@ -244,21 +244,13 @@ class CBSSportsRequests(object):
             client
           }
         }
-        
+
         fragment PoolSettingsFragment on PoolSettings {
           id
-          picksDeadlineType
-          periodLength
           maxEntriesPerUser
           mainTiebreaker
-          gamesPerPeriod
-          pickCountRangeOption
-          gameWeightType
-          roundBonusType
           roundBonuses
           roundModifiers
-          roundModifiersOption
-          tournamentIds
           includeMessageBoard
           openInvites
         }
