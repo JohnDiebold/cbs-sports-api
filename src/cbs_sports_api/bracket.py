@@ -6,7 +6,7 @@ from .entry import Entry
 
 
 class Bracket(object):
-    def __init__(self, pool_id: str, fetch_all_entries: False):
+    def __init__(self, pool_id: str, fetch_all_entries=False):
         self.pool_id = pool_id
         self.cbs_request = CBSSportsRequests(pool_id=pool_id)
         self._fetch_pool()
